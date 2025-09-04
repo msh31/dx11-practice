@@ -1,0 +1,65 @@
+# Build artifacts
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.iobj
+*.ipdb
+*.rsp
+*.pch
+*.bsc
+*.exp
+
+# Build directories
+[Bb]uild*/
+x64/
+x86/
+Debug*/
+Release*/
+ipch/
+*.log
+
+# Visual Studio user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+
+# Backup and temp files
+*.bak
+*.tmp
+*.cache
+*.~*
+
+# Windows specific
+Thumbs.db
+Desktop.ini
+
+# NuGet
+*.nupkg
+packages/
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+
+# Generated files
+*.tlog/
+*.lastbuildstate
+*.idb
+
+# Local test results
+TestResults/
+*.trx
+
+# Others
+*.opensdf
+*.sdf
+
+# Ignore the .vs folder (Visual Studio working dir)
+.vs/
